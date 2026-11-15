@@ -122,7 +122,7 @@ function App() {
           <span>Ashwin Arjun Kamble</span>
         </a>
 
-        <p>Â© 2026 Ashwin Arjun Kamble. All rights reserved.</p>
+        <p>© 2026 Ashwin Arjun Kamble. All rights reserved.</p>
 
         <div className="footer-socials">
           <a

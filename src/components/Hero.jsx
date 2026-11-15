@@ -20,7 +20,7 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero-copy">
         <motion.div className="availability" initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .15 }}>
-          <span className="status-dot" /> SOFTWARE ENGINEER Â· PUNE, INDIA
+          <span className="status-dot" /> SOFTWARE ENGINEER · PUNE, INDIA
         </motion.div>
         <motion.p className="hero-eyebrow" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: .25 }}>
           HELLO, WORLD. I&apos;M
@@ -56,7 +56,7 @@ function Hero() {
           <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Ashwin Arjun Kamble, Software Engineer and Python Developer" fetchPriority="high"/>
         </motion.div>
         <motion.div className="floating-chip chip-one" animate={{ y: [0,-9,0] }} transition={{ duration: 4, repeat: Infinity }}> <Code2 size={14} style={{display:"inline",verticalAlign:"middle",marginRight:7}}/> PYTHON.DEV</motion.div>
-        <motion.div className="floating-chip chip-two" animate={{ y: [0,9,0] }} transition={{ duration: 5, repeat: Infinity }}><Terminal size={14} style={{display:"inline",verticalAlign:"middle",marginRight:7}}/> BUILD Â· LEARN Â· SHIP</motion.div>
+        <motion.div className="floating-chip chip-two" animate={{ y: [0,9,0] }} transition={{ duration: 5, repeat: Infinity }}><Terminal size={14} style={{display:"inline",verticalAlign:"middle",marginRight:7}}/> BUILD · LEARN · SHIP</motion.div>
       </motion.div>
     </section>
   );
